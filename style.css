@@ -166,7 +166,7 @@ main {
     gap: 1.5rem;
 }
 
-main picture img {
+.main-img {
     width: 100%;
     max-width: 500px;
     display: block;
