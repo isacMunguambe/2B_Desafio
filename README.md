@@ -12,8 +12,8 @@ Viva, é com elevada honra que venho mostrar a minha proposta de solução ao de
 - Estado de foco quando estiver com o cursor acima de botões.
 
 
-Nota: No ficheiro style-guide.md, vem que referencias da largura usada nas páginas é:
+Nota: No ficheiro style-guide.md, vem que as referencias da largura usada nas páginas são:
 - Mobile: 375px
 - Desktop: 1440px
 
-Logo, procurei deixar o design o mais parecido o possível tendo em conta essas larguras.
+Logo, procurei deixar o design mais parecido o possível tendo em conta essas larguras.
