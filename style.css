@@ -25,16 +25,18 @@ nav a {
 
 body {
     min-height: 100vh;
-    color: var(--medium-gray);
-    font-size: 1rem;
-    font-weight: 500;
     font-family: 'Epilogue', sans-serif;
     text-align: center;
     line-height: 1.3;
     position: relative;
+    color: var(--medium-gray);
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 body .mini-overlay {
+    background-color: hsla(0, 0%, 8%, 0.5);
+    transition: all .3s linear;
     display: none;
     position: absolute;
     top: 0;
@@ -42,8 +44,6 @@ body .mini-overlay {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: hsla(0, 0%, 8%, 0.5);
-    transition: all .3s linear;
 }
 
 body.nav-open .mini-overlay {
@@ -52,11 +52,11 @@ body.nav-open .mini-overlay {
 }
 
 header {
-    min-height: 75px;
-    padding: 1.3rem 1rem;
     display: flex;
     align-items: center;
     position: relative;
+    min-height: 75px;
+    padding: 1.3rem 1rem;
 }
 
 header .menu {
@@ -85,13 +85,13 @@ nav {
     position: fixed;
     top: 0;
     right: 0;
-    width: 65vw;
-    height: 100vh;
     background: white;
     transform: translateX(100%);
     transition: all .3s ease-in;
     display: flex;
     text-align: left;
+    width: 65vw;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -187,14 +187,15 @@ main .text-content {
 .text-content button {
     color: var(--almost-white);
     background: var(--almost-black);
-    font-size: .9rem;
-    font-weight: 700;
     padding: .8rem 1.6rem;
     margin: 1.5rem 0;
     border: 1px solid var(--almost-black);
     border-radius: 1rem;
     cursor: pointer;
     transition: .5s all linear;
+    font-size: .9rem;
+    font-weight: 700;
+    
 }
 
 .text-content button:hover {
@@ -204,11 +205,11 @@ main .text-content {
 
 .text-content .clients {
     display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 1rem;
-    margin: 1.5rem 0;
 }
 
 .clients img {
@@ -237,15 +238,15 @@ footer a:hover {
 
 .login button {
     color: var(--medium-gray);
-    background: transparent;
-    font-size: .9rem;
-    font-weight: 700;
     padding: .5rem 1rem;
     margin: 0 .5rem;
     border: .1rem solid var(--medium-gray);
     border-radius: 1rem;
     cursor: pointer;
     transition: all .3s ease-in;
+    background: transparent;
+    font-size: .9rem;
+    font-weight: 700;
 }
 
 .login button:first-child {
@@ -312,12 +313,12 @@ footer a:hover {
 
     nav {
         position: initial;
-        height: auto;
-        background: transparent;
         margin: 0 2rem;
         flex: 3;
         align-items: center;
         transform: translate(0%);
+        height: auto;
+        background: transparent;
     }
 
     nav .nav-links {
@@ -355,23 +356,23 @@ footer a:hover {
 
     .nav-link .dropdown-list {
         position: absolute;
-        top: calc(100% + 1rem);
-        right: 0;
         width: max-content;
         background-color: white;
         box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+        top: calc(100% + 1rem);
+        right: 0;
         padding: 1rem 0;
         border-radius: .5rem;
     }
 
     main {
-        grid-template-columns: 1fr minmax(auto, 250px);
-        grid-template-rows: 1fr;
-        gap: 3rem;
         padding: 5rem 12rem;
         font-size: 18px;
         text-align: left;
         line-height: 1.5;
+        grid-template-columns: 1fr minmax(auto, 250px);
+        grid-template-rows: 1fr;
+        gap: 3rem;
     }
 
     main picture {
