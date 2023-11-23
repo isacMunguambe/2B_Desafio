@@ -11,7 +11,9 @@ Viva, é com elevada honra que venho mostrar a minha proposta de solução ao de
 - Dropdown dos sub-menus no cabeçalho na versão Desktop e na lateral expansível na versão mobile;
 - Estado de foco quando estiver com o cursor acima de botões.
 
-Nota: no ficheiro style-guide.md, vem que referencias da largura usada nas páginas é:
+###Nota
+No ficheiro style-guide.md, vem que referencias da largura usada nas páginas é:
 - Mobile: 375px
 - Desktop: 1440px
+
 Logo, procurei deixar o design o mais parecido o possível tendo em conta essas larguras.
