@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Isac - Desafio 2Business</title>
+</head>
+
+<body>
+  <div class="mini-overlay"></div>
+
+  <!-- Cabeçalho -->
+  <header>
+    <a href="#"><img src="./images/logo.svg" alt="snap logo" class="logo"></a>
+    <div class="menu">
+      <img src="./images/icon-menu.svg" alt="menu-open" class="open-menu">
+      <img src="./images/icon-close-menu.svg" alt="menu-close" class="close-menu">
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li class="nav-link">
+          <a href="#" class="dropdown" aria-label="features">
+            <span>Features</span>
+            <img src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow-up">
+            <img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow-down">
+          </a>
+          <ul class="dropdown-list">
+            <li class="dropdown-link">
+              <a href="#" aria-label="todo-list">
+                <img src="./images/icon-todo.svg" alt="todo_list icon">
+                <span>Todo List</span>
+              </a>
+            </li>
+            <li class="dropdown-link">
+              <a href="#" aria-label="calender">
+                <img src="./images/icon-calendar.svg" alt="calendar icon">
+                <span>Calendar</span>
+              </a>
+            </li>
+            <li class="dropdown-link">
+              <a href="#" aria-label="reminders">
+                <img src="./images/icon-reminders.svg" alt="bell icon">
+                <span>Reminders</span>
+              </a>
+            </li>
+            <li class="dropdown-link">
+              <a href="#" aria-label="planning">
+                <img src="./images/icon-planning.svg" alt="clock icon">
+                <span>Planning</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-link">
+          <a href="#" class="dropdown" aria-label="company">
+            <span>Company</span>
+            <img src="./images/icon-arrow-up.svg" alt="arrow_up" class="arrow-up">
+            <img src="./images/icon-arrow-down.svg" alt="arrow_down" class="arrow-down">
+          </a>
+          <ul class="dropdown-list">
+            <li class="dropdown-link"><a href="#" aria-label="history">History</a></li>
+            <li class="dropdown-link"><a href="#" aria-label="our_team">Our Team</a></li>
+            <li class="dropdown-link"><a href="#" aria-label="blog">Blog</a></li>
+          </ul>
+        </li>
+        <li class="nav-link"><a href="#" aria-label="careers">Careers</a></li>
+        <li class="nav-link"><a href="#" aria-label="about">About</a></li>
+        <li class="nav-link">
+          
+
+        </li>
+        <div class="login" id="loginCell">
+            <button>Login</button>
+            <button>Register</button>
+          </div>
+        
+      </ul>
+
+      <div class="login" id="loginDesk">
+        <button>Login</button>
+        <button>Register</button>
+      </div>
+
+    </nav>
+  </header>
+
+  <!-- Corpo -->
+  <main class="container">
+    <picture>
+      <source media="(min-width:465px)" srcset="./images/image-hero-desktop.png">
+      <img src="./images/image-hero-mobile.png" alt="guyimage">
+    </picture>
+    <section class="text-content">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+        productivity soar.</p>
+      <button>Learn more</button>
+
+      <div class="clients">
+        <img src="./images/client-databiz.svg" alt="databiz">
+        <img src="./images/client-audiophile.svg" alt="audiophile">
+        <img src="./images/client-meet.svg" alt="meet">
+        <img src="./images/client-maker.svg" alt="maker">
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    Desafio por <a href="http://www.2business.co.mz/" target="_blank">2Business</a>.
+    Feito por <a href="https://www.linkedin.com/in/isac-munguambe/" target="_blank">Isac Munguambe</a>.
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
